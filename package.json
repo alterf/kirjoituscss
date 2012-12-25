@@ -1,0 +1,14 @@
+{
+  "name": "KirjoitusCSS",
+  "description": "KirjoitusCSS is a dead simple Compass/SASS-based typography CSS framework",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cido/kirjoituscss",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cido/kirjoituscss.git"
+  },
+  "devDependencies": {
+    "grunt"               : "~0.3.x",
+    "grunt-compass"       : "~0.3.x"
+  }
+}

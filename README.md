@@ -1,4 +1,4 @@
-kirjoituscss
+KirjoitusCSS
 ============
 
-KirjoitusCSS is a dead simple Compass/SASS-based typography CSS framework
+KirjoitusCSS is a dead simple Compass/SASS-based typography CSS framework.
