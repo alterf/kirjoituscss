@@ -1,3 +1,21 @@
+@import 'typography-config';
+@import 'font-faces';
+@import 'font-sizes';
+@import 'baseline-grid';
+
+$default-font-size: 16px;
+
 body {
 
+	font-family: $body-text-font-family;
+	font-weight: $body-text-font-weight;
+
+	margin: 0 23%;
+
+	#{headers()} {
+		font-family: $header-font-family;
+		font-weight: $header-font-weight;
+	}
+
 }
+

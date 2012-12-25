@@ -1,0 +1,36 @@
+
+@function em($px, $base: $body-text-size) {
+	@return ($px / $base) * 1em;
+}
+
+
+body {
+	$default-text-size: 16px; // should be constant among browsers
+	font-size: em($body-text-size, $default-text-size);
+	line-height: em($body-line-height);
+}
+
+
+h1 {
+	font-size: em($header-1-text-size);
+}
+
+h2 {
+	font-size: em($header-2-text-size);
+}
+
+h3 {
+	font-size: em($header-3-text-size);
+}
+
+h4 {
+	font-size: em($header-4-text-size);
+}
+
+h5 {
+	font-size: em($header-5-text-size);
+}
+
+h6 {
+	font-size: em($header-6-text-size);
+}

@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'CapsuulaRegular';
+  src: url("../fonts/capsuula/Capsuula-webfont.eot");
+  src: url("../fonts/capsuula/Capsuula-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/capsuula/Capsuula-webfont.svg") format("svg"), url("../fonts/capsuula/Capsuula-webfont.woff") format("woff"), url("../fonts/capsuula/Capsuula-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\000037}}
+body {
+  font-size: 1.1875em;
+  line-height: 1.78947em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000314}}
+h1 {
+  font-size: 3.78947em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000318}}
+h2 {
+  font-size: 2.52632em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000322}}
+h3 {
+  font-size: 1.89474em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000326}}
+h4 {
+  font-size: 1.47368em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000330}}
+h5 {
+  font-size: 1.36842em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000334}}
+h6 {
+  font-size: 1.26316em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\000038}}
+body {
+  font-family: Constantia, Palatino Linotype, Book Antiqua, Palatino, serif;
+  font-weight: normal;
+  margin: 0 23%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000315}}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: "CapsuulaRegular", Arial, sans-serif;
+  font-weight: normal;
+}
