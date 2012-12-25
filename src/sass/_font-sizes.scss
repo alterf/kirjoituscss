@@ -34,3 +34,9 @@ h5 {
 h6 {
 	font-size: em($header-6-text-size);
 }
+
+p {
+	$margin-top: em(($body-line-height - $body-text-size) / 2);
+	margin-top: $margin-top;
+	margin-bottom: em($body-line-height);
+}

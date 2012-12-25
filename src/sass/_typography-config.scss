@@ -1,5 +1,6 @@
 
-$body-text-size: 19px;
+// To ensure that the baseline grid visualizer works nicely, $body-line-height / $body-text-size should result a nice finite decimal number
+$body-text-size: 18px;
 $body-line-height: 34px;
 
 $body-text-font-family: Constantia, Palatino Linotype, Book Antiqua, Palatino, serif;

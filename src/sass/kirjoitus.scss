@@ -1,16 +1,17 @@
+@import 'normalize';
 @import 'typography-config';
 @import 'font-faces';
 @import 'font-sizes';
-@import 'baseline-grid';
+@import 'baseline-grid-visualizer';
 
 $default-font-size: 16px;
 
 body {
 
+	margin: 0 23%;
+
 	font-family: $body-text-font-family;
 	font-weight: $body-text-font-weight;
-
-	margin: 0 23%;
 
 	#{headers()} {
 		font-family: $header-font-family;

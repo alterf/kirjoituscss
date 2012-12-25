@@ -1,0 +1,12 @@
+ @import "compass/css3/images";
+ @import "compass/css3/background-size";
+
+
+body {
+
+	$breakpoint: ($body-line-height - 1px) / $body-line-height;
+	$line-color: #d69c86;
+
+	@include background-image( linear-gradient(transparent, transparent $breakpoint, $line-color $breakpoint, $line-color) );
+	@include background-size( 100% $body-line-height );
+}
