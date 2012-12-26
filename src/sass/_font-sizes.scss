@@ -1,8 +1,13 @@
+@import 'utils';
 
-@function em($px, $base: $body-text-size) {
-	@return ($px / $base) * 1em;
+@mixin headerSizes($text-size-in-pixels, $line-height-factor, $margin-top-factor) {
+
+	font-size:               em($text-size-in-pixels);
+	$normalized-line-height: em($body-line-height, $text-size-in-pixels);
+	line-height:   $normalized-line-height * $line-height-factor;
+	margin-top:    $normalized-line-height * $margin-top-factor;
+	margin-bottom: $normalized-line-height * 1;
 }
-
 
 body {
 	$default-text-size: 16px; // should be constant among browsers
@@ -10,33 +15,36 @@ body {
 	line-height: em($body-line-height);
 }
 
+#{headings(all)} {
+	@include visualization-background-color( transparentize( lightblue, 0.5 ) );
+}
 
 h1 {
-	font-size: em($header-1-text-size);
+	@include headerSizes($header-1-text-size, $header-1-line-height-factor, $header-1-margin-top-factor);
 }
 
 h2 {
-	font-size: em($header-2-text-size);
+	@include headerSizes($header-2-text-size, $header-2-line-height-factor, $header-2-margin-top-factor);
 }
 
 h3 {
-	font-size: em($header-3-text-size);
+	@include headerSizes($header-3-text-size, $header-3-line-height-factor, $header-3-margin-top-factor);
 }
 
 h4 {
-	font-size: em($header-4-text-size);
+	@include headerSizes($header-4-text-size, $header-4-line-height-factor, $header-4-margin-top-factor);
 }
 
 h5 {
-	font-size: em($header-5-text-size);
+	@include headerSizes($header-5-text-size, $header-5-line-height-factor, $header-5-margin-top-factor);
 }
 
 h6 {
-	font-size: em($header-6-text-size);
+	@include headerSizes($header-6-text-size, $header-6-line-height-factor, $header-6-margin-top-factor);
 }
 
 p {
-	$margin-top: em(($body-line-height - $body-text-size) / 2);
-	margin-top: $margin-top;
+	@include visualization-background-color( transparentize( silver, 0.8 ) );
+	margin-top:    em($body-line-height);
 	margin-bottom: em($body-line-height);
 }

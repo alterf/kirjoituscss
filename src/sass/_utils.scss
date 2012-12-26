@@ -1,0 +1,10 @@
+
+@function em($px, $compared-to-px: $body-text-size) {
+	@return ($px / $compared-to-px) * 1em;
+}
+
+@mixin visualization-background-color($background-color) {
+	@if ($display-element-background-colors == true) {
+		background-color: $background-color;
+	}
+}

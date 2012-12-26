@@ -390,68 +390,92 @@ table {
   font-style: normal;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000312}}
 body {
   font-size: 1.125em;
   line-height: 1.88889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000314}}
-h1 {
-  font-size: 4em;
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000318}}
-h2 {
-  font-size: 2.66667em;
+h1, h2, h3, h4, h5, h6 {
+  background-color: rgba(173, 216, 230, 0.5);
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000322}}
-h3 {
-  font-size: 2em;
+h1 {
+  font-size: 4em;
+  line-height: 0.94444em;
+  margin-top: 1.41667em;
+  margin-bottom: 0.47222em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000326}}
-h4 {
-  font-size: 1.55556em;
+h2 {
+  font-size: 2.66667em;
+  line-height: 0.70833em;
+  margin-top: 1.41667em;
+  margin-bottom: 0.70833em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000330}}
-h5 {
-  font-size: 1.44444em;
+h3 {
+  font-size: 2em;
+  line-height: 0.94444em;
+  margin-top: 0.94444em;
+  margin-bottom: 0.94444em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000334}}
-h6 {
-  font-size: 1.33333em;
+h4 {
+  font-size: 1.55556em;
+  line-height: 1.21429em;
+  margin-top: 1.21429em;
+  margin-bottom: 1.21429em;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000338}}
+h5 {
+  font-size: 1.44444em;
+  line-height: 1.30769em;
+  margin-top: 1.30769em;
+  margin-bottom: 1.30769em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000342}}
+h6 {
+  font-size: 1.33333em;
+  line-height: 1.41667em;
+  margin-top: 1.41667em;
+  margin-bottom: 1.41667em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000346}}
 p {
-  margin-top: 0.44444em;
+  background-color: rgba(192, 192, 192, 0.2);
+  margin-top: 1.88889em;
   margin-bottom: 1.88889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_baseline-grid-visualizer\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_baseline-grid-visualizer\.scss}line{font-family:\000037}}
 body {
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(97.05882%, transparent), color-stop(97.05882%, #d69c86), color-stop(100%, #d69c86));
   background-image: -webkit-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
   background-image: -moz-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
   background-image: -o-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
   background-image: linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
-  -webkit-background-size: 100% 34px;
-  -moz-background-size: 100% 34px;
-  -o-background-size: 100% 34px;
-  background-size: 100% 34px;
+  -webkit-background-size: 100% 1.88889em;
+  -moz-background-size: 100% 1.88889em;
+  -o-background-size: 100% 1.88889em;
+  background-size: 100% 1.88889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000312}}
 body {
   margin: 0 23%;
   font-family: Constantia, Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000319}}
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "CapsuulaRegular", Arial, sans-serif;
   font-weight: normal;
