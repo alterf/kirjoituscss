@@ -1,3 +1,12 @@
+/* ==========================================================================
+ * VISUALIZATION OPTIONS
+ */
+/* ==========================================================================
+ * TYPOGRAPHIC CONFIGURATIONS
+ */
+/* ==========================================================================
+ * ALL THE MAGIC
+ */
 /* normalize.css v2.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -396,11 +405,6 @@ body {
   line-height: 1.88889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000318}}
-h1, h2, h3, h4, h5, h6 {
-  background-color: rgba(173, 216, 230, 0.5);
-}
-
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000322}}
 h1 {
   font-size: 4em;
@@ -451,31 +455,17 @@ h6 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_font-sizes\.scss}line{font-family:\0000346}}
 p {
-  background-color: rgba(192, 192, 192, 0.2);
   margin-top: 1.88889em;
   margin-bottom: 1.88889em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/_baseline-grid-visualizer\.scss}line{font-family:\000037}}
-body {
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, transparent), color-stop(97.05882%, transparent), color-stop(97.05882%, #d69c86), color-stop(100%, #d69c86));
-  background-image: -webkit-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
-  background-image: -moz-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
-  background-image: -o-linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
-  background-image: linear-gradient(transparent, transparent 97.05882%, #d69c86 97.05882%, #d69c86);
-  -webkit-background-size: 100% 1.88889em;
-  -moz-background-size: 100% 1.88889em;
-  -o-background-size: 100% 1.88889em;
-  background-size: 100% 1.88889em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000341}}
 body {
   margin: 0 23%;
   font-family: Constantia, Palatino Linotype, Book Antiqua, Palatino, serif;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Users\/jkap\/Projects\/Web\/KirjoitusCSS\/src\/sass\/kirjoitus\.scss}line{font-family:\0000348}}
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: "CapsuulaRegular", Arial, sans-serif;
   font-weight: normal;
